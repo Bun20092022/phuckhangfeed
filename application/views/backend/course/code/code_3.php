@@ -1,0 +1,3 @@
+<pre class="brush: xml; title: ; notranslate" title="">
+&lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;title&gt;jQuery l&agrave; g&igrave;?&lt;/title&gt;&#10;    &lt;script&#10;        src=&quot;https://code.jquery.com/jquery-3.6.0.min.js&quot;&#10;        integrity=&quot;sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=&quot;&#10;    crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;&lt;/head&gt;
+</pre>

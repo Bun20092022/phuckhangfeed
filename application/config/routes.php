@@ -1,0 +1,66 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['default_controller'] = 'main';
+$route['vn'] = 'main/vn';
+$route['en'] = 'main/en';
+$route['jp'] = 'main/jp';
+$route['kr'] = 'main/kr';
+$route['ch'] = 'main/ch';
+$route['lg'] = 'main/lg';
+$route['error'] = 'frontent/errorweb';
+$route['backend/order'] = 'backend/order';
+$route['frontent/shop/insert'] = 'frontent/shop/insert';
+
+
+$route['admin'] = 'backend/user/login';
+$route['backend/news/category'] = 'backend/news/category';
+$route['backend/user/login'] = 'backend/user/login';
+$route['backend/setup/banner'] = 'backend/setup/banner';
+$route['backend/symtem/thitruong'] = 'backend/symtem/thitruong';
+$route['backend/symtem/video'] = 'backend/symtem/video';
+$route['backend/news/tags'] = 'backend/news/tags';
+$route['backend/product/category'] = 'backend/product/category';
+$route['backend/video/category'] = 'backend/video/category';
+$route['backend/news/templates'] = 'backend/news/templates';
+$route['backend/pages/posts'] = 'backend/pages/posts';
+$route['backend/news/menu'] = 'backend/news/menu';
+$route['backend/news/posts'] = 'backend/news/posts';
+$route['backend/symtem/contact'] = 'backend/symtem/contact';
+$route['backend/symtem/header'] = 'backend/symtem/header';
+$route['backend/symtem/service'] = 'backend/symtem/service';
+$route['backend/symtem/servicepost'] = 'backend/symtem/servicepost';
+$route['backend/symtem/product'] = 'backend/symtem/product';
+$route['backend/symtem/productpost'] = 'backend/symtem/productpost';
+$route['backend/symtem/news'] = 'backend/symtem/news';
+$route['backend/symtem/newspost'] = 'backend/symtem/newspost';
+$route['backend/symtem/servicelist'] = 'backend/symtem/servicelist';
+$route['backend/symtem/productlist'] = 'backend/symtem/productlist';
+$route['backend/symtem/newslist'] = 'backend/symtem/newslist';
+$route['backend/symtem/aboutus'] = 'backend/symtem/aboutus';
+$route['backend/symtem/whyus'] = 'backend/symtem/whyus';
+$route['backend/symtem/googlemap'] = 'backend/symtem/googlemap';
+$route['backend/symtem/khauhieu'] = 'backend/symtem/khauhieu';
+$route['backend/symtem/footer'] = 'backend/symtem/footer';
+$route['backend/symtem/headertop'] = 'backend/symtem/headertop';
+$route['backend/news/posts/add'] = 'backend/news/posts/add';
+$route['backend/news/category/add'] = 'backend/news/category/add';
+$route['backend/setup/editfile'] = 'backend/setup/editfile';
+$route['backend/setup/general/website'] = 'backend/setup/general/website';
+$route['backend/setup/general/language'] = 'backend/setup/general/language';
+$route['backend/setup/general/social'] = 'backend/setup/general/social';
+$route['backend/setup/general/lang_website'] = 'backend/setup/general/lang_website';
+$route['backend/home/changewebsite/1'] = 'backend/home/changewebsite/1';
+$route['backend/home/change_language/vn'] = 'backend/home/change_language/vn';
+$route['backend/home/change_language/en'] = 'backend/home/change_language/en';
+$route['backend/home/change_language/jp'] = 'backend/home/change_language/jp';
+$route['backend/home/change_language/kr'] = 'backend/home/change_language/kr';
+$route['backend/home/change_language/ch'] = 'backend/home/change_language/ch';
+$route['backend/home/change_language/lg'] = 'backend/home/change_language/lg';
+$route['backend/setup/general/extend_website'] = 'backend/setup/general/extend_website';
+
+// $route['(:any)'] = 'frontent/posts/category';
+$route['(:any)/(:any)'] = 'frontent/category';
+$route['(:any)/(:any)/(:any)'] = 'frontent/post';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
